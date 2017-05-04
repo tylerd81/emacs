@@ -1,6 +1,7 @@
 (add-to-list 'custom-theme-load-path "C:/Users/drely/.emacs.d/themes/")
 (load-theme 'monokai t)
 (global-linum-mode t)
+(global-hl-line-mode 1)
 (set-face-attribute 'default nil :height 120)
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
